@@ -18,7 +18,7 @@ and in revision for Bioengineering. To cite :
 ```
 </details>
 
-##Abstract
+## Abstract
 
 In recent years, there has been a rise in the prevalence of autism spectrum disorder (ASD). 1
 The diagnosis of ASD requires behavioral observation and standardized testing completed by highly 2
