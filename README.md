@@ -1,19 +1,26 @@
 #ECG Recordings as Predictors of very early Autism Likelihood: A Machine Learning Approach
 Deepa Tilwani, Jessica Bradshaw, Amit Sheth and Christian O’Reilly 
 
-Code Repo for our paper. 
+This repository contains the code used for the paper entitled "ECG Recordings as Predictors of very early Autism Likelihood: A Machine Learning Approach"
+and in revision for Bioengineering. To cite :
 
-You can cite using the following :
 
+<details>
+
+```Bibtex
 @article{tilwani2023ecg,
   title={ECG Recordings as Predictors of Very Early Autism Likelihood: A Machine Learning Approach},
   author={Tilwani, D and Bradshaw, J and Sheth, AP and O'Reilly, C},
+  publisher={Preprints},
   year={2023}
+  doi={https://doi.org/10.20944/preprints202305.0713.v1},
 }
+```
+</details>
 
+#Abstract
 
-
-Abstract: In recent years, there has been a rise in the prevalence of autism spectrum disorder (ASD). 1
+In recent years, there has been a rise in the prevalence of autism spectrum disorder (ASD). 1
 The diagnosis of ASD requires behavioral observation and standardized testing completed by highly 2
 trained experts. Early intervention for ASD can begin as early as 1-2 years of age, but ASD diagnoses 3
 are not typically made until ages 2-5 years, thus delaying the start of intervention. There is an 4
