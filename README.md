@@ -32,9 +32,6 @@ interactions with objects and caregivers. After obtaining the ECG signals, featu
 variability (HRV) and sympathetic and parasympathetic activities were extracted from them. Then 10
 we evaluated the effectiveness of multiple machine learning classifiers for the classification of ASD 11
 likelihood. Our findings support our hypothesis that infant ECG signals contain a significant amount 12
-of information about ASD familial likelihood. Among the various machine learning algorithms tested, 13
-XGBoost performed best according to sensitivity (0.76±0.12), f1-score (0.75±0.12), precision (0.79±0. 14
-12), classification accuracy (0.77±0.12, p-value = 0.01) and AUC (0.76±0.12, p-value = 0.02). These 15
-results suggest that ECG signals contains relevant information about the likelihood of an infant to 16
+of information about ASD familial likelihood. Among the various machine learning algorithms tested, KNN performed best according to sensitivity (0.70 ± 0.117), f1-score (0.689 ± 0.124), precision (0.717 ± 0.128 14 ), accuracy (0.70 ± 0.117, p-value = 0.02), and ROC (0.686 ± 0.122, p-value = 0.06). These results suggest that ECG signals contains relevant information about the likelihood of an infant to 16
 develop ASD. Future studies should consider the potential of information contained in ECG, and 17
 other indices of autonomic control, for the development of biomarkers of ASD in infancy. 
