@@ -161,13 +161,12 @@ def nested_loop(X, y, innerSplits,  outerSplits, num_trials, mp):
 def get_nested_results(i, innerSplits,  outerSplits, num_trials, mp):
 
     X, y, seg_len = fun_read_csv(i)
-    for model_name, mp in model_params.items():
-        
-        #nested, non_nested = nested_loop(X, y, innerSplits,  outerSplits, num_trials, mp)
-        nested = nested_loop(X, y, innerSplits,  outerSplits, num_trials, mp)
-        
-        return seg_len ,nested,
+
+    #nested, non_nested = nested_loop(X, y, innerSplits,  outerSplits, num_trials, mp)
+    nested = nested_loop(X, y, innerSplits,  outerSplits, num_trials, mp)
     
+    return seg_len ,nested,
+
              #'Non_Nested_Scores':non_nested}    
 
 
